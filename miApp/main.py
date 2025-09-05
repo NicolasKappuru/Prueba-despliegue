@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base, Session
 # -------------------------
 # Configuración de BD
 # -------------------------
-DATABASE_URL = "postgresql+psycopg2://postgres:angrybirds@localhost:5432/mi_db"
+DATABASE_URL = "postgresql://postgres:frPVlEnQwyfiDsmvnVpmcjFhFeKbZgZl@hopper.proxy.rlwy.net:40246/railway"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
